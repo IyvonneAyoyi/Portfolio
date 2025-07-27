@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iyvonne Personal Portfolio Website</title>
+
+    <!-- External CSS-->
+
     <link rel="stylesheet" href="assets/stylesheets/reset.css">
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+
+    <!-- Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+
 </head>
 <body>
     <header>
@@ -21,46 +33,56 @@
     </header>
     <main>
       <!-- Hero/Leading Section-->
-   <section>
-    <h1>Hello, I am Iyvonne Anne Ayoyi <br>Geospatial Analyst | Frontend Web Developer in Training | Skilled in GIS, Remote Sensing, and Spatial Analysis | Project Management | Passionate about Data-Driven Solutions for Sustainability</h1>
-     <p>Passionate Geospatial Data Analyst and aspiring Frontend Developer, combining spatial analysis with web technologies to create impactful, data-driven solutions.</p>
+   <section class="hero-section">
 
-<button>View My Work</button>
+    <div class="hero-info">
+        <img src="assets/image/avatar.png" alt="Iyvonne's avatar">
+        <h1>Hello, I am Iyvonne Anne Ayoyi <br>Geospatial Analyst | Frontend Web Developer in Training | Skilled in GIS, Remote Sensing, and Spatial Analysis | Project Management | Passionate about Data-Driven Solutions for Sustainability</h1>
+        <p>Passionate Geospatial Data Analyst and aspiring Frontend Developer, combining spatial analysis with web technologies to create impactful, data-driven solutions.</p>
+        <button>View My Work</button>
+    </div>
 
-<img width="300" src="assets/image/laptop2.jpg" alt="Laptop on a desk">
-<P>I don't just analyze spaces</P>
-<p>I create digital tools that turn spatial data into solutions for people and the planet.</p>
+    <div class="hero-img">        
+        <img src="assets/image/laptop2.jpg" alt="Laptop on a desk">
+
+        <div>
+            <P>I don't just analyze spaces</P>
+            <p>I create digital tools that turn spatial data into solutions for people and the planet.</p>
+        </div>
+    </div>
+
     </section>
 <!-- Projects Section-->
-<section>
-<h2>My Projects</h2>
-
-<a href="#">View More</a>
-
-<!-- Amnesty Website-->
-<div>
-    <img src="assets/image/ngo.jpg" alt="Amnesty Placard">
-    <h3>Amnesty Website</h3>
-    <p>An info website on what Amnesty does and how people can contribute</p>
-</div>
+<section class="projects-section">
+    <div>
+        <h2>My Projects</h2>
+        <a href="#">View More -></a>
+    </div>
 
 
+    <!-- Projects-->
+
+  <div class="projects-container">
+        <!-- Amnesty Website-->
+      <div class="project-card">
+         <img src="assets/image/ngo.jpg" alt="Amnesty Placard">
+         <h3>Amnesty Website</h3>
+         <p>An info website on what Amnesty does and how people can contribute</p>
+      </div>
 <!-- Apartments Website-->
-<div>
-    <img src="assets/image/apartment.jpg" alt="A picture of a highrise apartment">
-    <h3>Rezz</h3>
-    <p>A website to help students book and rent hostels</p>
-
-</div>
-
+      <div class="project-card">
+        <img src="assets/image/apartment.jpg" alt="A picture of a highrise apartment">
+        <h3>Rezz</h3>
+        <p>A website to help students book and rent hostels</p>
+      </div>
 <!-- Restaurant Website-->
-<div>
-    <img src="assets/image/restaurant.jpg" alt="A picture inside a restaurant">
-    <h3>Disheey</h3>
-    <p>A restaurant management system for processing orders and payments</p>
-</div>
+      <div class="project-card">
+        <img src="assets/image/restaurant.jpg" alt="A picture inside a restaurant">
+        <h3>Disheey</h3>
+        <p>A restaurant management system for processing orders and payments</p>
+      </div>
 
-
+  </div>
 
 </section>
 </main>
